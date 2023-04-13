@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="sites" class="w-100 bg-success">
 
   </div>
 </template>
@@ -11,5 +11,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+  #sites{
+    min-height: 35vh;
+  }
 </style>

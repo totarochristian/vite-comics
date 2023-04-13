@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="contacts" class="w-100 bg-warning">
 
   </div>
 </template>
@@ -11,5 +11,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+#contacts{
+  min-height: 15vh;;
+}
 </style>
