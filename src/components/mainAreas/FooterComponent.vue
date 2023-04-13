@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-custom-dark">
+  <footer class="bg-custom-dark d-flex flex-column justify-content-center align-items-center">
     <BrandsComponent />
     <SitesComponent />
     <ContactsComponent />
