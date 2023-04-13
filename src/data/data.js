@@ -189,22 +189,27 @@ const sitesData = [
 
 const socialsData = [
   {
+    name: "Facebook",
     imageName: "footer-facebook.png",
     link: "#"
   },
   {
+    name: "Twitter",
     imageName: "footer-twitter.png",
     link: "#"
   },
   {
+    name: "Youtube",
     imageName: "footer-youtube.png",
     link: "#"
   },
   {
+    name: "Pinterest",
     imageName: "footer-pinterest.png",
     link: "#"
   },
   {
+    name: "Periscope",
     imageName: "footer-periscope.png",
     link: "#"
   }
