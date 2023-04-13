@@ -64,4 +64,127 @@ const brandsData = [
   }
 ];
 
-export { menuData, brandsData };
+const sitesData = [
+  {
+    title: "dc comics",
+    links: [
+      {
+        text: "characters",
+        link: "#"
+      },
+      {
+        text: "comics",
+        link: "#"
+      },
+      {
+        text: "movies",
+        link: "#"
+      },
+      {
+        text: "TV",
+        link: "#"
+      },
+      {
+        text: "games",
+        link: "#"
+      },
+      {
+        text: "videos",
+        link: "#"
+      },
+      {
+        text: "news",
+        link: "#"
+      }
+    ]
+  },
+  {
+    title: "dc",
+    links: [
+      {
+        text: "terms of use",
+        link: "#"
+      },
+      {
+        text: "privacy-policy (new)",
+        link: "#"
+      },
+      {
+        text: "ad choices",
+        link: "#"
+      },
+      {
+        text: "advertising",
+        link: "#"
+      },
+      {
+        text: "jobs",
+        link: "#"
+      },
+      {
+        text: "subscriptions",
+        link: "#"
+      },
+      {
+        text: "talent workshops",
+        link: "#"
+      },
+      {
+        text: "CPSC certificates",
+        link: "#"
+      },
+      {
+        text: "ratings",
+        link: "#"
+      },
+      {
+        text: "shop help",
+        link: "#"
+      },
+      {
+        text: "contacts us",
+        link: "#"
+      }
+    ]
+  },
+  {
+    title: "sites",
+    links: [
+      {
+        text: "DC",
+        link: "#"
+      },
+      {
+        text: "MAD magazine",
+        link: "#"
+      },
+      {
+        text: "DC kids",
+        link: "#"
+      },
+      {
+        text: "DC universe",
+        link: "#"
+      },
+      {
+        text: "DC power visa",
+        link: "#"
+      }
+    ]
+  },
+  {
+    title: "shop",
+    links: [
+      {
+        text: "shop DC",
+        link: "#"
+      },
+      {
+        text: "shop DC collectibles",
+        link: "#"
+      }
+    ]
+  }
+];
+
+export { menuData, brandsData, sitesData };
