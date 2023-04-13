@@ -1,10 +1,10 @@
 const menuData = [
   {
     isActive: false,
-    text: 'charcters'
+    text: 'characters'
   },
   {
-    isActive: false,
+    isActive: true,
     text: 'comics'
   },
   {
