@@ -18,6 +18,7 @@
 </script>
 
 <style lang="scss" scoped>
+  @use 'bootstrap/scss/bootstrap' as *;
   main{
     min-height: 17.7vh;
   }
