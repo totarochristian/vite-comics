@@ -187,4 +187,27 @@ const sitesData = [
   }
 ];
 
-export { menuData, brandsData, sitesData };
+const socialsData = [
+  {
+    imageName: "footer-facebook.png",
+    link: "#"
+  },
+  {
+    imageName: "footer-twitter.png",
+    link: "#"
+  },
+  {
+    imageName: "footer-youtube.png",
+    link: "#"
+  },
+  {
+    imageName: "footer-pinterest.png",
+    link: "#"
+  },
+  {
+    imageName: "footer-periscope.png",
+    link: "#"
+  }
+];
+
+export { menuData, brandsData, sitesData, socialsData };
