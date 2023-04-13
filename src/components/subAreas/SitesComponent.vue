@@ -12,6 +12,8 @@
 
 <style lang="scss" scoped>
   #sites{
-    min-height: 35vh;
+    min-height: 40vh;
+    background-image: url("../../assets/images/footer-bg.jpg");
+    background-size: cover;
   }
 </style>
