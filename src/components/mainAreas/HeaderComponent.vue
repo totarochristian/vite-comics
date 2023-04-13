@@ -1,7 +1,7 @@
 <template>
   <header class="w-100 h-100 bg-white d-flex justify-content-center align-items-center">
     <div class="w-75 h-100 d-flex justify-content-between align-items-center">
-      <img src="../assets/images/dc-logo.png" alt="Logo DC">
+      <img src="../../assets/images/dc-logo.png" alt="Logo DC">
       <div id="headerMenu" class="h-100 d-flex justify-content-between align-items-center gap-4">
         <div class="headerMenuElement h-100" v-for="(elem,index) in menuElements" :class="{'active' : elem.isActive}">
           <span class="h-100 fw-semibold text-uppercase">{{ elem.text }}</span>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import { menuData } from '../data/data';
+  import { menuData } from '../../data/data';
   export default {
     name: "HeaderComponent",
     data(){
