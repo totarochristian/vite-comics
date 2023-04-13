@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="bg-white">
 
   </header>
 </template>
@@ -13,6 +13,5 @@
 <style lang="scss" scoped>
   header{
     min-height: 15vh;
-    background-color: white;
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="bg-dark">
 
   </footer>
 </template>
@@ -13,6 +13,5 @@
 <style lang="scss" scoped>
   footer{
     min-height: 70vh;
-    background-color: #303030;
   }
 </style>
