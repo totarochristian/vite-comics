@@ -1,0 +1,13 @@
+@use './partial/variables' as *;
+
+// Background colors
+
+.bg-custom-black{
+  background-color: $customBlack;
+}
+
+//Text colors
+
+.text-custom-black{
+  color: $customBlack;
+}
