@@ -1,12 +1,23 @@
 <template>
   <footer class="bg-custom-dark">
-
+    <BrandsComponent />
+    <SitesComponent />
+    <ContactsComponent />
   </footer>
 </template>
 
 <script>
+  import BrandsComponent from '../subAreas/BrandsComponent.vue';
+  import SitesComponent from '../subAreas/SitesComponent.vue';
+  import ContactsComponent from '../subAreas/ContactsComponent.vue';
+
   export default {
-    name: "FooterComponent"
+    name: "FooterComponent",
+    components:{
+      BrandsComponent,
+      SitesComponent,
+      ContactsComponent
+    }
   }
 </script>
 
