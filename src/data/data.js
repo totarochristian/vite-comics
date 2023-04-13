@@ -41,4 +41,27 @@ const menuData = [
   }
 ];
 
-export { menuData };
+const brandsData = [
+  {
+    imageName: "buy-comics-digital-comics.png",
+    text: "digital comics"
+  },
+  {
+    imageName: "buy-comics-merchandise.png",
+    text: "dc merchandise"
+  },
+  {
+    imageName: "buy-comics-subscriptions.png",
+    text: "subscription"
+  },
+  {
+    imageName: "buy-comics-shop-locator.png",
+    text: "comic shop locator"
+  },
+  {
+    imageName: "buy-dc-power-visa.svg",
+    text: "dc power visa"
+  }
+];
+
+export { menuData, brandsData };
