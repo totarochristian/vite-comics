@@ -1,7 +1,7 @@
 <template>
   <div id="contacts" class="w-100 text-white d-flex justify-content-center align-items-center overflow-hidden">
     <div class="w-75 d-flex justify-content-between align-items-center gap-4">
-      <button type="button" class="btn btn-outline-primary text-white text-uppercase fw-bold rounded-0 btn-lg">sign-up now!</button>
+      <LargeButtonComponent title="sign-up now!" />
       <div class="d-flex justify-content-between align-items-center gap-4">
         <h5 class="text-primary fw-bold text-uppercase">follow us</h5>
         <div id="socials" class="d-flex gap-3">
@@ -16,8 +16,12 @@
 
 <script>
 import { socialsData } from '../../data/data';
+import LargeButtonComponent from '../single/LargeButtonComponent.vue';
   export default {
     name: "ContactsComponent",
+    components:{
+      LargeButtonComponent
+    },
     data(){
       return{
         socialElements: socialsData
