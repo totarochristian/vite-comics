@@ -17,7 +17,7 @@
     },
     methods: {
       GetImagePath(imageName){
-        return new URL("../../assets/images/"+imageName,import.meta.url).href;
+        return new URL("/images/"+imageName,import.meta.url).href;
       }
     }
   }

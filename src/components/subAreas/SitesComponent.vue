@@ -4,7 +4,7 @@
       <div class="col-4 p-4 d-flex justify-content-between flex-wrap gap-1">
         <SiteComponent :list="list" v-for="list in sitesElements" />
       </div>
-      <img src="../../assets/images/dc-logo-bg.png" alt="Logo DC">
+      <img src="/images/dc-logo-bg.png" alt="Logo DC">
     </div>
   </div>
 </template>
@@ -29,7 +29,7 @@
   @use 'bootstrap/scss/bootstrap' as *;
   #sites{
     height: 40vh;
-    background-image: url("../../assets/images/footer-bg.jpg");
+    background-image: url("/images/footer-bg.jpg");
     background-size: cover;
   }
 </style>
