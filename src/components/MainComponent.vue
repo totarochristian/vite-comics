@@ -11,5 +11,8 @@
 </script>
 
 <style lang="scss" scoped>
-
+  main{
+    min-height: 15vh;
+    background-color: black;
+  }
 </style>
