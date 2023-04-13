@@ -11,7 +11,7 @@
 
 <script>
   import { sitesData } from '../../data/data';
-  import SiteComponent from '../single/SiteComponents.vue';
+  import SiteComponent from '../single/SiteComponent.vue';
   export default {
     name: "SitesComponent",
     components:{
