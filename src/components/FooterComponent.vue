@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-dark">
+  <footer class="bg-custom-dark">
 
   </footer>
 </template>

@@ -6,8 +6,16 @@
   background-color: $customBlack;
 }
 
+.bg-custom-dark{
+  background-color: $customDark;
+}
+
 //Text colors
 
 .text-custom-black{
   color: $customBlack;
+}
+
+.text-custom-dark{
+  color: $customDark;
 }
