@@ -22,6 +22,7 @@
 </script>
 
 <style lang="scss" scoped>
+  @use 'bootstrap/scss/bootstrap' as *;
   footer{
     min-height: 70vh;
   }
