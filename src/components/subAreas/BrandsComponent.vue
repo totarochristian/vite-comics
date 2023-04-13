@@ -5,8 +5,14 @@
 </template>
 
 <script>
+  import { brandsData } from '../../data/data';
   export default {
-    name: "BrandsComponent"
+    name: "BrandsComponent",
+    data(){
+      return{
+        brandsElements: brandsData
+      }
+    }
   }
 </script>
 
