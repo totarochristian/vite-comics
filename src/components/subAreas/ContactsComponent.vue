@@ -32,13 +32,14 @@ import { socialsData } from '../../data/data';
 </script>
 
 <style lang="scss" scoped>
-#contacts{
-  min-height: 10vh;
+  @use 'bootstrap/scss/bootstrap' as *;
+  #contacts{
+    min-height: 10vh;
 
-  a{
-    &:hover img{
-      filter: brightness(0) invert(1);
+    a{
+      &:hover img{
+        filter: brightness(0) invert(1);
+      }
     }
   }
-}
 </style>
