@@ -1,13 +1,14 @@
 <template>
-  <button type="button" class="btn btn-outline-primary text-white text-uppercase fw-bold rounded-0 btn-lg">{{ title }}</button>
+  <button type="button" class="btn text-white text-uppercase fw-bold rounded-0 btn-lg" :class="filled ? 'btn-primary' : 'btn-outline-primary'">{{ title }}</button>
 </template>
 
 <script>
   export default {
     name: "LargeButtonComponent",
-    props:[
-      "title"
-    ]
+    props:{
+      title: String,
+      filled: Boolean
+    }
   }
 </script>
 
