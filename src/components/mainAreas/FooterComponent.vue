@@ -7,9 +7,9 @@
 </template>
 
 <script>
-  import BuyComicsComponent from '../subAreas/BuyComicsComponent.vue';
-  import SitesComponent from '../subAreas/SitesComponent.vue';
-  import ContactsComponent from '../subAreas/ContactsComponent.vue';
+  import BuyComicsComponent from '../subAreas/footer/BuyComicsComponent.vue';
+  import SitesComponent from '../subAreas/footer/SitesComponent.vue';
+  import ContactsComponent from '../subAreas/footer/ContactsComponent.vue';
 
   export default {
     name: "FooterComponent",

@@ -11,8 +11,8 @@
 </template>
 
 <script>
-  import LargeButtonComponent from '../single/LargeButtonComponent.vue';
-  import SocialComponent from '../single/SocialComponent.vue';
+  import LargeButtonComponent from '../../single/LargeButtonComponent.vue';
+  import SocialComponent from '../../single/SocialComponent.vue';
   export default {
     name: "ContactsComponent",
     components:{

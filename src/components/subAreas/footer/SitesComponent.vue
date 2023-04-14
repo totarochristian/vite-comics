@@ -10,8 +10,8 @@
 </template>
 
 <script>
-  import { sitesData } from '../../data/data';
-  import SiteComponent from '../single/SiteComponent.vue';
+  import { sitesData } from '../../../data/data';
+  import SiteComponent from '../../single/SiteComponent.vue';
   export default {
     name: "SitesComponent",
     components:{

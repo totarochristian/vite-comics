@@ -7,8 +7,8 @@
 </template>
 
 <script>
-  import { brandsData } from '../../data/data';
-  import ComicComponent from '../single/ComicComponent.vue';
+  import { brandsData } from '../../../data/data';
+  import ComicComponent from '../../single/ComicComponent.vue';
   export default {
     name: "BuyComicsComponent",
     components:{
