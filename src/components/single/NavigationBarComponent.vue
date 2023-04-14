@@ -33,4 +33,9 @@
     color: $primary;
     border-bottom: 5px solid $primary;
   }
+  @media screen and (max-width: 1199.98px){
+    #navigationBar{
+      margin: 0 auto;
+    }
+  }
 </style>

@@ -24,4 +24,11 @@
   header{
     height: 15vh;
   }
+  @media screen and (max-width: 1199.98px){
+    header{
+      div{
+        flex-wrap: wrap;
+      }
+    }
+  }
 </style>
