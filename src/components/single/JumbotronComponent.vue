@@ -12,7 +12,7 @@
 
 <style lang="scss" scoped>
   #jumbotron{
-    height: 30vh;
+    height: 40vh;
     img{
       object-fit: cover;
       object-position: top center;
