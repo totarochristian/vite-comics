@@ -1,7 +1,7 @@
 <template>
   <div id="contacts" class="w-100 text-white d-flex justify-content-center align-items-center overflow-hidden">
     <div class="w-75 d-flex justify-content-between align-items-center gap-4">
-      <LargeButtonComponent title="sign-up now!" />
+      <ButtonComponent title="sign-up now!" :filled="false" :size="3"/>
       <div class="d-flex justify-content-between align-items-center gap-4">
         <h5 class="text-primary fw-bold text-uppercase">follow us</h5>
         <SocialComponent />
@@ -11,12 +11,12 @@
 </template>
 
 <script>
-  import LargeButtonComponent from '../../single/LargeButtonComponent.vue';
+  import ButtonComponent from '../../single/ButtonComponent.vue';
   import SocialComponent from '../../single/SocialComponent.vue';
   export default {
     name: "ContactsComponent",
     components:{
-      LargeButtonComponent,
+      ButtonComponent,
       SocialComponent
     }
   }
