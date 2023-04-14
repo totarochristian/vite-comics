@@ -15,4 +15,7 @@
 
 <style lang="scss" scoped>
   @use 'bootstrap/scss/bootstrap' as *;
+  button{
+    min-width: 180px;
+  }
 </style>
