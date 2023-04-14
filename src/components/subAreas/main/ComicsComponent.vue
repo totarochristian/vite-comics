@@ -1,7 +1,9 @@
 <template>
-  <JumbotronComponent />
-  <div class="w-75 h-100 d-flex justify-content-between align-items-center">
-    
+  <div id="comics" class="w-100 h-100">
+    <JumbotronComponent />
+    <div class="w-75 h-100 d-flex justify-content-between align-items-center">
+
+    </div>
   </div>
 </template>
 

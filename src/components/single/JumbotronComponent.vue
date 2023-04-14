@@ -1,6 +1,6 @@
 <template>
   <div id="jumbotron" class="w-100">
-    <img src="/images/jumbotron.jpg" alt="Jumbotron">
+    <img class="w-100 h-100" src="/images/jumbotron.jpg" alt="Jumbotron">
   </div>
 </template>
 
@@ -11,5 +11,11 @@
 </script>
 
 <style lang="scss" scoped>
-
+  #jumbotron{
+    height: 30vh;
+    img{
+      object-fit: cover;
+      object-position: top center;
+    }
+  }
 </style>
