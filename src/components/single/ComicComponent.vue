@@ -3,7 +3,7 @@
     <div class="comicImage">
       <img :src="comicData.thumb" :alt="comicData.series" class="w-100 h-100">
     </div>
-    <p class="w-100">{{ comicData.series }}</p>
+    <p class="w-100 text-uppercase pt-3">{{ comicData.series }}</p>
   </div>
 </template>
 
