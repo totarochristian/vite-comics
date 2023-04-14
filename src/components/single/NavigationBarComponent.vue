@@ -1,6 +1,6 @@
 <template>
   <div id="navigationBar" class="h-100 d-flex justify-content-between align-items-center gap-4">
-    <div class="navigationBarElement h-100" v-for="(elem,index) in menuElements" :class="{'active' : elem.isActive}">
+    <div class="navigationBarElement h-100" v-for="(elem,index) in menuElements" :class="{'active' : elem.isActive}" @click="SetActiveElem(index)">
       <span class="h-100 fw-semibold text-uppercase">{{ elem.text }}</span>
     </div>
   </div>
@@ -12,15 +12,30 @@
     name: "NavigationBarComponent",
     data(){
       return{
+        activeIndex: 0,
         menuElements: menuData
       }
+    },
+    methods:{
+      SetActiveElem(index){
+        this.menuElements[this.activeIndex].isActive = false;
+        this.menuElements[index].isActive = true;
+        this.activeIndex = index;
+      }
+    },
+    mounted(){
+      this.menuElements.forEach((elem,index) =>{
+        if(elem.isActive){
+          this.activeIndex = index;
+        }
+      });
     }
   }
 </script>
 
 <style lang="scss" scoped>
   $primary: #007bff;
-  
+
   #navigationBar{
     line-height: 113px;
   }
