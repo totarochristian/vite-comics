@@ -14,8 +14,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @use 'bootstrap/scss/bootstrap' as *;
-  
   a{
     text-decoration: none;
     color: grey;

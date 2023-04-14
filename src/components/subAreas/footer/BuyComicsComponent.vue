@@ -23,7 +23,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @use 'bootstrap/scss/bootstrap' as *;
   #brands{
     min-height: 20vh;
   }

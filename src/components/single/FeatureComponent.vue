@@ -21,8 +21,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @use 'bootstrap/scss/bootstrap' as *;
-
   .featureElement{
     img {
       width: 65px;

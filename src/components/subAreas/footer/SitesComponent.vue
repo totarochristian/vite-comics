@@ -26,7 +26,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @use 'bootstrap/scss/bootstrap' as *;
   #sites{
     height: 40vh;
     background-image: url("/images/footer-bg.jpg");

@@ -23,7 +23,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @use 'bootstrap/scss/bootstrap' as *;
   #contacts{
     min-height: 10vh;
     div{

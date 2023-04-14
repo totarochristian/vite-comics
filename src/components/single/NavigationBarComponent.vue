@@ -19,7 +19,8 @@
 </script>
 
 <style lang="scss" scoped>
-  @use 'bootstrap/scss/bootstrap' as *;
+  $primary: #007bff;
+  
   #navigationBar{
     line-height: 113px;
   }

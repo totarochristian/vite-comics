@@ -20,7 +20,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @use 'bootstrap/scss/bootstrap' as *;
   header{
     height: 15vh;
   }

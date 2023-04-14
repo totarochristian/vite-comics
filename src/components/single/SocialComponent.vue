@@ -24,7 +24,6 @@
 </script>
 
 <style lang="scss" scoped>
-@use 'bootstrap/scss/bootstrap' as *;
   a{
       &:hover img{
         filter: brightness(0) invert(1);
