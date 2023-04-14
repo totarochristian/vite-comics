@@ -1,5 +1,5 @@
 <template>
-  <div id="currentSeries" class="w-75 h-100 d-flex flex-column justify-content-start align-items-start">
+  <div id="currentSeries" class="w-75 h-100 d-flex flex-column justify-content-start align-items-start pb-4">
     <ButtonComponent title="current series" :filled="true" :size="3"/>
     <ComicsLinksComponent />
     <ButtonComponent title="load more" :filled="true" :size="2" class="align-self-center"/>

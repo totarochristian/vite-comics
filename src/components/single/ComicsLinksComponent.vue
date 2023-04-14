@@ -1,5 +1,5 @@
 <template>
-  <div id="comicsLinks" class="p-3 d-flex justify-content-center align-items-center flex-wrap gap-4">
+  <div id="comicsLinks" class="px-3 py-4 d-flex justify-content-center flex-wrap gap-4">
     <ComicComponent :index="index" :comicData="comic" v-for="(comic,index) in currentSeriesComics" />
   </div>
 </template>
