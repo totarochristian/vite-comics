@@ -1,12 +1,22 @@
 <template>
-  <div id="comicsLinks" class="p-3 d-flex justify-content-center align-items-center">
-    bla bla
+  <div id="comicsLinks" class="p-3 d-flex justify-content-center align-items-center flex-wrap gap-4">
+    <ComicComponent :index="index" :comicData="comic" v-for="(comic,index) in currentSeriesComics" />
   </div>
 </template>
 
 <script>
+  import { comicsData } from '../../data/data';
+  import ComicComponent from './ComicComponent.vue';
   export default {
-    name: "ComicsLinksComponent"
+    name: "ComicsLinksComponent",
+    components:{
+      ComicComponent
+    },
+    data(){
+      return{
+        currentSeriesComics: comicsData
+      }
+    }
   }
 </script>
 

@@ -7,7 +7,6 @@
 </template>
 
 <script>
-  import { comicsData } from '../../data/data';
   import ButtonComponent from './ButtonComponent.vue';
   import ComicsLinksComponent from './ComicsLinksComponent.vue';
   export default {
@@ -15,11 +14,6 @@
     components: {
       ButtonComponent,
       ComicsLinksComponent
-    },
-    data(){
-      return{
-        currentSeriesComics: comicsData
-      }
     }
   }
 </script>
