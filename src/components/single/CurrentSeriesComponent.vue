@@ -5,8 +5,14 @@
 </template>
 
 <script>
+  import { comicsData } from '../../data/data';
   export default {
-    name: "CurrentSeriesComponent"
+    name: "CurrentSeriesComponent",
+    data(){
+      return{
+        currentSeriesComics: comicsData
+      }
+    }
   }
 </script>
 
