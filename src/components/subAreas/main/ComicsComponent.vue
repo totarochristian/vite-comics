@@ -1,18 +1,18 @@
 <template>
   <div id="comics" class="w-100 h-100">
     <JumbotronComponent />
-    <div class="w-75 h-100 d-flex justify-content-between align-items-center">
-
-    </div>
+    <CurrentSeriesComponent />
   </div>
 </template>
 
 <script>
   import JumbotronComponent from '../../single/JumbotronComponent.vue';
+  import CurrentSeriesComponent from '../../single/CurrentSeriesComponent.vue';
   export default {
     name: "ComicsComponent",
     components:{
-      JumbotronComponent
+      JumbotronComponent,
+      CurrentSeriesComponent
     }
   }
 </script>
