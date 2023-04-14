@@ -32,4 +32,26 @@
     background-image: url("/images/footer-bg.jpg");
     background-size: cover;
   }
+  @media screen and (max-width: 1474px){
+    #sites{
+      div{
+        width: 80%;
+        div{
+          div{
+            width: auto!important;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 767.98px){
+    #sites{
+      img{
+        display: none;
+      }
+      div{
+        width: 100%;
+      }
+    }
+  }
 </style>
