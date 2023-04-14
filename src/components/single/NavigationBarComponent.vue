@@ -7,13 +7,14 @@
 </template>
 
 <script>
-  import { menuData } from '../../data/data';
   export default {
     name: "NavigationBarComponent",
+    props:{
+      menuElements: Object
+    },
     data(){
       return{
-        activeIndex: 0,
-        menuElements: menuData
+        activeIndex: 0
       }
     },
     methods:{
