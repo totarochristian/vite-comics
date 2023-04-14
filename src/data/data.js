@@ -215,4 +215,6 @@ const socialsData = [
   }
 ];
 
-export { menuData, brandsData, sitesData, socialsData };
+import comicsData from "./dc-comics.json"
+
+export { menuData, brandsData, sitesData, socialsData, comicsData };
