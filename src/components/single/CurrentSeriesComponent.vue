@@ -1,6 +1,7 @@
 <template>
   <div id="currentSeries" class="w-75 h-100 d-flex flex-column justify-content-start align-items-start">
     <ButtonComponent title="current series" :filled="true" :size="3"/>
+    <ButtonComponent title="load more" :filled="true" :size="2" class="align-self-center"/>
   </div>
 </template>
 
