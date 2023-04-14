@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-custom-dark d-flex flex-column justify-content-center align-items-center">
+  <footer class="bg-custom-dark d-flex flex-column justify-content-center align-items-center overflow-hidden">
     <BuyComicsComponent />
     <SitesComponent />
     <ContactsComponent />
@@ -25,5 +25,10 @@
   @use 'bootstrap/scss/bootstrap' as *;
   footer{
     min-height: 70vh;
+  }
+  @media screen and (max-width: 767.98px){
+    footer{
+      flex-wrap: wrap;
+    }
   }
 </style>

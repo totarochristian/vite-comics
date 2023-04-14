@@ -1,5 +1,5 @@
 <template>
-  <main class="w-100 h-100 bg-custom-black text-white d-flex justify-content-center align-items-center">
+  <main class="w-100 h-100 bg-custom-black text-white d-flex justify-content-center align-items-center overflow-hidden">
     <ComicsComponent />
   </main>
 </template>
