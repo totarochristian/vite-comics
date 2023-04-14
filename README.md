@@ -7,7 +7,10 @@ This is a solution to the vite-comics challenge of [Boolean](https://boolean.car
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-    - [Comics](#comics)
+    - [Page not implemented](#page-not-implemented)
+    - [Comics desktop](#comics-desktop)
+    - [Comics tablet](#comics-tablet)
+    - [Comics mobile](#comics-mobile)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -20,13 +23,26 @@ This is a solution to the vite-comics challenge of [Boolean](https://boolean.car
 
 Users should be able to:
 
-- View the layout in the Desktop size
+- View the optimal layout depending on their device's screen size
+- Navigate between implemented pages using the navbar
 
 ### Screenshot
 
-#### Comics
+#### Page not implemented
 
-![](./src/screenshots/comics.png)
+![](./src/screenshots/characters-desktop.png)
+
+#### Comics desktop
+
+![](./src/screenshots/comics-desktop.png)
+
+#### Comics tablet
+
+![](./src/screenshots/comics-tablet.png)
+
+#### Comics mobile
+
+![](./src/screenshots/comics-mobile.png)
 
 ### Links
 
