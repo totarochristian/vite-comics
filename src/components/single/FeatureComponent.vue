@@ -1,5 +1,5 @@
 <template>
-  <div class="comicElement d-flex gap-2 align-items-center">
+  <div class="featureElement d-flex gap-2 align-items-center">
     <img :src="GetImagePath(imageName)" :alt="title">
     <span class="h-100 fw-semibold text-uppercase">{{ title }}</span>
   </div>
@@ -7,7 +7,7 @@
 
 <script>
   export default {
-    name: "ComicComponent",
+    name: "FeatureComponent",
     props: [
       "imageName",
       "title"
@@ -23,7 +23,7 @@
 <style lang="scss" scoped>
   @use 'bootstrap/scss/bootstrap' as *;
 
-  .comicElement{
+  .featureElement{
     img {
       width: 65px;
       height: 65px;
