@@ -2,7 +2,7 @@
   <div id="contacts" class="w-100 text-white d-flex justify-content-center align-items-center overflow-hidden">
     <div class="w-75 d-flex justify-content-between align-items-center gap-4">
       <ButtonComponent title="sign-up now!" :filled="false" :size="3"/>
-      <div class="d-flex justify-content-between align-items-center gap-4">
+      <div class="w-100 d-flex justify-content-between align-items-center gap-4">
         <h5 class="text-primary fw-bold text-uppercase">follow us</h5>
         <SocialComponent />
       </div>
@@ -26,5 +26,22 @@
   @use 'bootstrap/scss/bootstrap' as *;
   #contacts{
     min-height: 10vh;
+    div{
+      div{
+        max-width: 400px;
+      }
+    }
+  }
+  @media screen and (max-width: 767.98px){
+    #contacts{
+      div{
+        width: 100%!important;
+        padding: 0 1rem;
+        div{
+          flex-wrap: wrap;
+          row-gap: 0!important;
+        }
+      }
+    }
   }
 </style>
